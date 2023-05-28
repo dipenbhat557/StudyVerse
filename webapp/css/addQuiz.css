@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+.logo {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+}
+.logo a {
+    text-decoration: none;
+    color: rgb(251, 248, 248);
+    transition: 0.5s ease-in-out;
+}
+.logo:hover {
+    font-size: 28px;
+}
+nav {
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+nav ul li {
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+}
+nav ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(247, 246, 246);
+    transition: 0.5s ease-in-out;
+}
+nav ul li a:hover {
+    font-size: 18px;
+}
+
+h1{
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Resetting Containers */
+
+.container{
+    padding: 10px;
+}
+
+.container fieldset{
+    border: none;
+    padding: 10px;
+}
+
+/* CSS for form elements */
+form {
+    margin-top: 20px;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1.5rem;
+  }
+  
+  textarea {
+    font-size: 1.07rem;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  /* CSS for container */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .container fieldset {
+    margin-bottom: 20px;
+    border: none;
+  }
+  
+  .container label {
+    font-weight: bold;
+  }
+  
+  .container textarea {
+    resize: vertical;
+  }
+  
+  .container input[type="radio"] {
+    vertical-align: middle;
+  }
+  
+
+  /* CSS for the "Add Another Question" button */
+#addQuestion {
+    /* display: flex; */
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+  
+  #addQuestion:hover {
+    background-color: #45a049;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+  }
+  
+  button[type="submit"]{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  button[type="submit"]:hover{
+    background-color: #45a049;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+  }

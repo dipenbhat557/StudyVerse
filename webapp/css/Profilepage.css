@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:0;
+}
+.name{
+   font-size: 25px;
+   margin-top: 60px;
+   margin-left:10%;
+
+}
+.contant{
+    display: flex;
+  
+    
+}
+body{
+  background-color:  antiquewhite;
+}
+.name1{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+}
+.college{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.male{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.usn{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.program{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.stream{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.enrollment{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.email{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.phone{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.sex{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.dov{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.nationality{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.current{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+.permanent{
+  border:1px solid gray;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+
+}
+#profile{
+  text-align: center;
+  font-size:30px;
+  padding-bottom: 70px;
+}
+
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    margin-top:1%;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    gap: 9px;
+    margin-left: 30%;
+    margin-right: 20%;
+    border: 1px solid lightblue;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    padding:60px;
+    width: 40%;
+}
+.logo {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+}
+.logo a {
+  text-decoration: none;
+  color: rgb(251, 248, 248);
+  transition: 0.5s ease-in-out;
+}
+.logo:hover {
+  font-size: 28px;
+}
+nav {
+  background-color: black;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  padding-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+nav ul li {
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+}
+nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(247, 246, 246);
+  transition: 0.5s ease-in-out;
+}
+nav ul li a:hover {
+  font-size: 18px;
+}
+footer{
+  background-color: lightgray;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}

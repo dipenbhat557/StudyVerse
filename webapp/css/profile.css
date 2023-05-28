@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/* logo section  */
+body {
+ 
+  /* background-position: center; */
+  background-size: cover;
+  background-color: rgb(229, 224, 224, 0.2);
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+
+.photu {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: 800;
+}
+.logo a {
+  text-decoration: none;
+  color: rgb(248, 246, 246);
+  transition: 0.5s ease-in-out;
+}
+.logo:hover {
+  font-size: 28px;
+}
+nav {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 25px;
+  padding-right: 25px;
+}
+nav ul li {
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+}
+nav ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(247, 245, 245);
+  transition: 0.5s ease-in-out;
+}
+nav ul li a:hover {
+  font-size: 18px;
+}
+/* section for overview */
+.overview {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.overview-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.overview h2 {
+  width: 50%;
+}
+.overview h3 {
+  width: 50%;
+  font-weight: 400;
+}
+.hero-span {
+  font-weight: 900;
+}
+/* //overall inside the hero section  */
+.hero {
+  padding: 80px;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.contents {
+  width: 60vw;
+  display: grid;
+  grid-template-columns: 0.7fr 0.7fr 0.7fr;
+  text-align: center;
+
+  /* justify-content: center; */
+  gap: 15px;
+}
+.items {
+  border: 1px solid grey;
+  padding: 15px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.items p {
+  font-size: 20px;
+  font-weight: 800;
+}
+.items a {
+  text-decoration: none;
+  color: rgb(8, 8, 8);
+}
